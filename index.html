@@ -221,16 +221,6 @@ footer{background:#000;border-top:1px solid var(--border);padding:60px 40px 30px
 #btt.visible{opacity:1;transform:translateY(0)}
 #btt:hover{background:var(--gold2)}
 
-/* ===== FITNESS PRO EMBED ===== */
-.fitpro-frame-wrap{background:var(--card);border:1px solid var(--border);position:relative;overflow:hidden}
-.fitpro-frame-wrap::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--gold),transparent);z-index:1}
-.fitpro-frame-bar{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:16px 24px;background:rgba(201,168,76,0.05);border-bottom:1px solid var(--border);flex-wrap:wrap}
-.fitpro-frame-bar span{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--gold);font-weight:600}
-.fitpro-frame-bar a{color:var(--gold);text-decoration:none;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;border:1px solid var(--gold);padding:8px 18px;transition:all 0.3s;white-space:nowrap}
-.fitpro-frame-bar a:hover{background:var(--gold);color:#000}
-.fitpro-iframe{width:100%;height:880px;border:none;display:block;background:#0a0a0f}
-.fitpro-note{font-size:12px;color:rgba(255,255,255,0.3);text-align:center;margin-top:16px;line-height:1.6}
-
 /* ===== MOBILE ===== */
 @media(max-width:768px){
   nav{padding:0 20px}
@@ -244,8 +234,6 @@ footer{background:#000;border-top:1px solid var(--border);padding:60px 40px 30px
   .footer-grid{grid-template-columns:1fr}
   footer{padding:40px 20px 20px}
   .footer-bottom{flex-direction:column;gap:8px;text-align:center}
-  .fitpro-iframe{height:650px}
-  .fitpro-frame-bar{flex-direction:column;align-items:flex-start}
 }
 </style>
 </head>
@@ -268,7 +256,6 @@ footer{background:#000;border-top:1px solid var(--border);padding:60px 40px 30px
     <li><a href="#services">Services</a></li>
     <li><a href="#schedule">Schedule</a></li>
     <li><a href="#membership">Membership</a></li>
-    <li><a href="#fitnesspro">Fitness Pro</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
   <a href="tel:984-1078384" class="nav-cta">📞 Call Now</a>
@@ -598,25 +585,6 @@ footer{background:#000;border-top:1px solid var(--border);padding:60px 40px 30px
         <div class="why-text">920+ followers and a growing community of fitness enthusiasts. We host events, workshops, and fitness challenges.</div>
       </div>
     </div>
-  </div>
-</section>
-
-<!-- FITNESS PRO APP -->
-<section id="fitnesspro">
-  <div class="container">
-    <div class="reveal" style="text-align:center">
-      <div class="section-label" style="justify-content:center">Free Member Tool</div>
-      <h2 class="section-title">FITNESS INTELLIGENCE PRO</h2>
-      <p class="section-sub" style="margin:0 auto 40px">Your complete best fitness companion — calculate your BMI, BMR, TDEE & ideal weight, build a custom meal plan, follow a workout program, and track your daily progress. All free, right here.</p>
-    </div>
-    <div class="fitpro-frame-wrap reveal">
-      <div class="fitpro-frame-bar">
-        <span>⚡ FIT IQ Pro — Live App</span>
-        <a href="fitness_intelligence_pro_nepali.html" target="_blank" rel="noopener">Open Full Screen ↗</a>
-      </div>
-      <iframe src="fitness_intelligence_pro_nepali.html" class="fitpro-iframe" loading="lazy" title="Fitness Intelligence Pro App"></iframe>
-    </div>
-    <p class="fitpro-note reveal">Use the tabs inside the app above to switch between Dashboard, Profile, Calculators, Nutrition, Meal Plans, Workouts and Tracker. Trouble viewing it? Use "Open Full Screen" to launch it in its own tab.</p>
   </div>
 </section>
 
